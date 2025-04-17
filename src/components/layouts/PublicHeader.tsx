@@ -30,7 +30,7 @@ export default function PublicHeader() {
               <Link href="/login">ログイン</Link>
             </Button>
             <Button variant="outline" asChild>
-              <Link href="/login">登録</Link>
+              <Link href="/register">登録</Link>
             </Button>
           </div>
         </div>
