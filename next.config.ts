@@ -10,6 +10,11 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  experimental: {
+    serverActions: {
+      bodySizeLimit: "5mb", //アップロードできファイルサイズの最大値
+    },
+  },
 };
 
 export default nextConfig;
