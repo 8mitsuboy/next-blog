@@ -18,9 +18,10 @@ export default function PostDropdownMenu({ postId }: { postId: string }) {
   const handleDeleteDialogChange = (open: boolean) => {
     console.log("open: ", open);
     setShowDeleteDialog(open);
-    if (!open) {
-      setIsDropdownOpen(false);
-    }
+    // if (!open) {
+    //   setIsDropdownOpen(false);
+    // }
+    setIsDropdownOpen(false);
   };
 
   return (
